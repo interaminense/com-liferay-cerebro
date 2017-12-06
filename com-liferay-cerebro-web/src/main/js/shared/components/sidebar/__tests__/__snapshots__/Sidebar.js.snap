@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar should render 1`] = `
+<div class="sidebar-root">
+  <div class="header">
+    <svg class="icon-root lexicon-icon lexicon-icon-dxp-logo-iso icon-size-md">
+      <use xlink:href="/images/lexicon/icons.svg#dxp-logo-iso"></use>
+    </svg>
+    <svg class="icon-root lexicon-icon lexicon-icon-dxp-logo sidebar-hide">
+      <use xlink:href="/images/lexicon/icons.svg#dxp-logo"></use>
+    </svg>
+  </div>
+  <div class="sidebar-nav">
+    <ul class="nav">
+      <li class="sidebar-item">
+        <a href="/home">
+          <svg class="icon-root lexicon-icon lexicon-icon-dxp-home">
+            <use xlink:href="/images/lexicon/icons.svg#dxp-home"></use>
+          </svg>
+          <span class="sidebar-hide">Home</span>
+        </a>
+      </li>
+      <li class="sidebar-item">
+        <a href="/contacts">
+          <svg class="icon-root lexicon-icon lexicon-icon-dxp-contacts">
+            <use xlink:href="/images/lexicon/icons.svg#dxp-contacts"></use>
+          </svg>
+          <span class="sidebar-hide">Contacts</span>
+        </a>
+      </li>
+      <li class="sidebar-item">
+        <a href="/assets">
+          <svg class="icon-root lexicon-icon lexicon-icon-dxp-assets">
+            <use xlink:href="/images/lexicon/icons.svg#dxp-assets"></use>
+          </svg>
+          <span class="sidebar-hide">Assets</span>
+        </a>
+      </li>
+      <li class="sidebar-item">
+        <a href="/touchpoints">
+          <svg class="icon-root lexicon-icon lexicon-icon-dxp-touchpoints">
+            <use xlink:href="/images/lexicon/icons.svg#dxp-touchpoints"></use>
+          </svg>
+          <span class="sidebar-hide">Touchpoints</span>
+        </a>
+      </li>
+      <li class="sidebar-item">
+        <a href="/campaigns">
+          <svg class="icon-root lexicon-icon lexicon-icon-dxp-campaigns">
+            <use xlink:href="/images/lexicon/icons.svg#dxp-campaigns"></use>
+          </svg>
+          <span class="sidebar-hide">Campaigns</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer">
+    <ul class="nav">
+      <li class="sidebar-item">
+        <a href="/settings">
+          <svg class="icon-root lexicon-icon lexicon-icon-cog">
+            <use xlink:href="/images/lexicon/icons.svg#cog"></use>
+          </svg>
+          <span class="sidebar-hide">Settings</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

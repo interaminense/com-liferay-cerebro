@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert should render 1`] = `<div class="alert" role="alert"></div>`;
+
+exports[`Alert should render as a notification alert 1`] = `
+<div class="alert alert-notification" role="alert">
+  <p></p>
+</div>
+`;
+
+exports[`Alert should render as dismissable 1`] = `
+<div class="alert alert-dismissible" role="alert">
+  <button class="close">
+    <svg class="icon-root lexicon-icon lexicon-icon-times">
+      <use xlink:href="/images/lexicon/icons.svg#times"></use>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Alert should render with a specific type 1`] = `<div class="alert alert-dark" role="alert"></div>`;
+
+exports[`Alert should render with a title 1`] = `
+<div class="alert" role="alert">
+  <strong class="lead">hello world</strong>
+</div>
+`;
+
+exports[`Alert should render with content 1`] = `<div class="alert" role="alert">hello children</div>`;
+
+exports[`Alert should render with multiple config set 1`] = `
+<div class="alert alert-dismissible alert-notification" role="alert">
+  <button class="close">
+    <svg class="icon-root lexicon-icon lexicon-icon-times">
+      <use xlink:href="/images/lexicon/icons.svg#times"></use>
+    </svg>
+  </button>
+  <strong class="lead">this is a title</strong>
+  <p>hello children</p>
+</div>
+`;

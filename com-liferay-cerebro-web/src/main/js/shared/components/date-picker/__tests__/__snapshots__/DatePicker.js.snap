@@ -1,0 +1,757 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker should render 1`] = `
+<div class="date-picker-root">
+  <div class="controls">
+    <div class="month-toggle-wrapper">
+      <button class="button-root btn btn-secondary btn-sm" type="button">December 1969
+        <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+          <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+        </svg>
+      </button>
+    </div>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+      <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+        <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+      </svg>
+    </button>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced current-day-btn" type="button">•</button>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+      <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+        <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="picker-body">
+    <table class="calendar-root">
+      <thead>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">30</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">1</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">2</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">3</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">4</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">5</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">6</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">7</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">8</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">9</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">10</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">11</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">12</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">13</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">14</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">15</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">16</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">17</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">18</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">19</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">20</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">21</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">22</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">23</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">24</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">25</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">26</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">27</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">28</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">29</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">30</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">31</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">1</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">2</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">3</button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`DatePicker should render label when a range is passed 1`] = `
+<div class="date-picker-root">
+  <label>end-date</label>
+  <div class="controls">
+    <div class="month-toggle-wrapper">
+      <button class="button-root btn btn-secondary btn-sm" type="button">December 1969
+        <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+          <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+        </svg>
+      </button>
+    </div>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+      <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+        <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+      </svg>
+    </button>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced current-day-btn" type="button">•</button>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+      <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+        <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="picker-body">
+    <table class="calendar-root">
+      <thead>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">30</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">1</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">2</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">3</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">4</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">5</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">6</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">7</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">8</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">9</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">10</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">11</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">12</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">13</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">14</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">15</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">16</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">17</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">18</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">19</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">20</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">21</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">22</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">23</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">24</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">25</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">26</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">27</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">28</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">29</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">30</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">31</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">1</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">2</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">3</button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`DatePicker should render the next month 1`] = `
+<div class="date-picker-root">
+  <div class="controls">
+    <div class="month-toggle-wrapper">
+      <button class="button-root btn btn-secondary btn-sm" type="button">January 1970
+        <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+          <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+        </svg>
+      </button>
+    </div>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+      <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+        <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+      </svg>
+    </button>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced current-day-btn" type="button">•</button>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+      <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+        <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="picker-body">
+    <table class="calendar-root">
+      <thead>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">28</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">29</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">30</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root outside-month" type="button">31</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">1</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">2</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">3</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">4</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">5</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">6</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">7</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">8</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">9</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">10</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">11</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">12</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">13</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">14</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">15</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">16</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">17</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">18</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">19</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">20</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">21</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">22</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">23</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">24</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">25</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">26</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">27</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">28</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">29</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">30</button>
+            </div>
+          </td>
+          <td class="">
+            <div class="day-container">
+              <button class="button-root btn btn-unstyled day-root" type="button">31</button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`DatePicker should show the month selector 1`] = `
+<div class="date-picker-root">
+  <div class="controls">
+    <div class="month-toggle-wrapper">
+      <button class="button-root btn btn-secondary btn-sm active" type="button">December 1969
+        <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+          <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+        </svg>
+      </button>
+    </div>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+      <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+        <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+      </svg>
+    </button>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced current-day-btn" type="button">•</button>
+    <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+      <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+        <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+      </svg>
+    </button>
+  </div>
+  <div class="picker-body">
+    <div class="month-selector-root">
+      <div class="year-root expanded">
+        <div class="year-header">2017
+          <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+            <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+          </svg>
+        </div>
+        <div class="year-body">
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Jan</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Feb</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Mar</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Apr</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">May</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Jun</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Jul</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Aug</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Sep</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Oct</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Nov</button>
+          </div>
+          <div class="month-root">
+            <button class="button-root btn btn-unstyled" type="button">Dec</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

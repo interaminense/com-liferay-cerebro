@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateIntervalSelector should render 1`] = `
+<button id="overlay1" class="button-root btn btn-unstyled date-interval-selector-root " type="button">
+  <div class="label-container">
+    <span class="button-label-separator">|</span>
+    <span class="interval-label"></span>
+  </div>
+  <div class="icon-container">
+    <svg class="icon-root lexicon-icon lexicon-icon-calendar">
+      <use xlink:href="/images/lexicon/icons.svg#calendar"></use>
+    </svg>
+  </div>
+</button>
+`;
+
+exports[`DateIntervalSelector should render button label with custom range 1`] = `
+<button id="overlay4" class="button-root btn btn-unstyled date-interval-selector-root " type="button">
+  <div class="label-container">Dec 31, 1969 - Jan 12, 1970
+    <span class="button-label-separator">|</span>
+    <span class="interval-label"></span>
+  </div>
+  <div class="icon-container">
+    <svg class="icon-root lexicon-icon lexicon-icon-calendar">
+      <use xlink:href="/images/lexicon/icons.svg#calendar"></use>
+    </svg>
+  </div>
+</button>
+`;
+
+exports[`DateIntervalSelector should render button label with different interval 1`] = `
+<button id="overlay5" class="button-root btn btn-unstyled date-interval-selector-root " type="button">
+  <div class="label-container">
+    <span class="button-label-separator">|</span>
+    <span class="interval-label">yearly</span>
+  </div>
+  <div class="icon-container">
+    <svg class="icon-root lexicon-icon lexicon-icon-calendar">
+      <use xlink:href="/images/lexicon/icons.svg#calendar"></use>
+    </svg>
+  </div>
+</button>
+`;
+
+exports[`DateIntervalSelector should render content in overlay 1`] = `
+<span>
+  <div class="overlay-renderer-root">
+    <div data-overlayid="2" id="overlay2Container" class="card overlay-container-root date-interval-selector-root" style="top: 0px; left: 0px;">
+      <div class="date-interval-selector-content">
+        <div class="interval-container">
+          <div class="form-group">
+            <label>date-range</label>
+            <div class="dropdown dropdown-root searchable-select-root" id="overlay3">
+              <button class="button-root btn btn-secondary btn-sm dropdown-toggle" type="button">
+                <span class="text-truncate"></span>
+                <span>
+                  <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+                    <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>time-interval</label>
+            <div class="form-check">
+              <div class="custom-control custom-radio">
+                <label>
+                  <input class="custom-control-input" type="radio">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">daily</span>
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <label>
+                  <input class="custom-control-input" type="radio">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">weekly</span>
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <label>
+                  <input class="custom-control-input" type="radio">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">monthly</span>
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <label>
+                  <input class="custom-control-input" type="radio">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">quarterly</span>
+                </label>
+              </div>
+              <div class="custom-control custom-radio">
+                <label>
+                  <input class="custom-control-input" type="radio">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">yearly</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="date-picker-container">
+          <div aria-disabled="" class="date-picker-root disabled">
+            <div class="controls">
+              <div class="month-toggle-wrapper">
+                <button class="button-root btn btn-secondary btn-sm" type="button">November 2017
+                  <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+                    <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+                  </svg>
+                </button>
+              </div>
+              <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+                <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+                  <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+                </svg>
+              </button>
+              <button disabled="" class="button-root btn btn-secondary btn-sm btn-monospaced current-day-btn" type="button">•</button>
+              <button class="button-root btn btn-secondary btn-sm btn-monospaced" type="button">
+                <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+                  <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="picker-body">
+              <table class="calendar-root">
+                <thead>
+                  <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root outside-month" type="button">29</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root outside-month" type="button">30</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root outside-month" type="button">31</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">1</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">2</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">3</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">4</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">5</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">6</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">7</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">8</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">9</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">10</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">11</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">12</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">13</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">14</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">15</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">16</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">17</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">18</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">19</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">20</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">21</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">22</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">23</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">24</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">25</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">26</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">27</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">28</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">29</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root" type="button">30</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root outside-month" type="button">1</button>
+                      </div>
+                    </td>
+                    <td class="">
+                      <div class="day-container">
+                        <button class="button-root btn btn-unstyled day-root outside-month" type="button">2</button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="overlay2" class="button-root btn btn-unstyled active date-interval-selector-root " type="button">
+    <div class="label-container">
+      <span class="button-label-separator">|</span>
+      <span class="interval-label"></span>
+    </div>
+    <div class="icon-container">
+      <svg class="icon-root lexicon-icon lexicon-icon-calendar">
+        <use xlink:href="/images/lexicon/icons.svg#calendar"></use>
+      </svg>
+    </div>
+  </button>
+</span>
+`;

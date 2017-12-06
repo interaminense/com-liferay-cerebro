@@ -1,0 +1,9 @@
+.list-group-root {
+	box-shadow: none;
+
+	&.no-border {
+		li {
+			border-width: 0;
+		}
+	}
+}

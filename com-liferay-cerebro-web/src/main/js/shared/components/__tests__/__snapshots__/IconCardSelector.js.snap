@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconCardSelector should render 1`] = `
+<ul class="icon-card-selector-root">
+  <li class="">
+    <svg class="icon-root lexicon-icon lexicon-icon-faro-contacts-card-layout-image-left icon-size-lg">
+      <use xlink:href="/images/lexicon/icons.svg#faro-contacts-card-layout-image-left"></use>
+    </svg>
+  </li>
+</ul>
+`;
+
+exports[`IconCardSelector should render with selected item 1`] = `
+<ul class="icon-card-selector-root">
+  <li class="selected">
+    <svg class="icon-root lexicon-icon lexicon-icon-faro-contacts-card-layout-image-left icon-size-lg">
+      <use xlink:href="/images/lexicon/icons.svg#faro-contacts-card-layout-image-left"></use>
+    </svg>
+  </li>
+</ul>
+`;

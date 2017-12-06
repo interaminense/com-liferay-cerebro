@@ -1,0 +1,36 @@
+.color-swatch {
+	$colors: map-merge($theme-colors, (
+		body-bg: $body-bg,
+		body-color: $body-color,
+		component-active-bg: $component-active-bg,
+		component-active-color: $component-active-color,
+		link-color: $link-color,
+		link-hover-color: $link-hover-color,
+		text-muted: $text-muted
+	));
+
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	@each $name, $color in $colors {
+		&.#{$name} .color-display {
+			background-color: $color;
+		}
+	}
+
+	.color-display {
+		border-radius: 50%;
+		height: 100px;
+		margin-bottom: 10px;
+		width: 100px;
+	}
+
+	.color-label {
+		background-color: rgba($black, 0.4);
+		border-radius: 4px;
+		color: $white;
+		padding: 1px 4px;
+	}
+}

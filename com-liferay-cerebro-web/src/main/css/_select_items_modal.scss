@@ -1,0 +1,26 @@
+.select-items-modal-root {
+	.items-header {
+		background: $darkGrey;
+		display: flex;
+		font-size: 12px;
+		font-weight: 600;
+		justify-content: flex-end;
+		padding: 0 28px;
+		text-transform: capitalize;
+	}
+
+	.list-group-root .list-group-item {
+		border-left: 0;
+		border-right: 0;
+	}
+
+	.load-more-container {
+		padding: 20px;
+		text-align: center;
+	}
+
+	.scroll-container {
+		height: 380px;
+		overflow-y: scroll;
+	}
+}

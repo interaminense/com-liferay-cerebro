@@ -1,0 +1,23 @@
+$slideUpDuration: 150ms;
+
+/* ---------- Fade in & out ---------- */
+
+.transition-fade-in-out-enter {
+	opacity: 0;
+}
+
+.transition-fade-in-out-enter.transition-fade-in-out-enter-active {
+	opacity: 1;
+
+	transition: opacity $slideUpDuration ease-in;
+}
+
+.transition-fade-in-out-leave {
+	opacity: 1;
+}
+
+.transition-fade-in-out-leave.transition-fade-in-out-leave-active {
+	opacity: 0;
+
+	transition: opacity $slideUpDuration ease-in;
+}

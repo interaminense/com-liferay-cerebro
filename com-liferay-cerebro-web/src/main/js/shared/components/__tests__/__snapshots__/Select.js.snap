@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render 1`] = `<select class="form-control select-root"></select>`;
+
+exports[`Select should render with blank option 1`] = `
+<select class="form-control select-root">
+  <option></option>
+</select>
+`;
+
+exports[`Select should render with child selected 1`] = `
+<select class="form-control select-root">
+  <option>1</option>
+  <option>2</option>
+  <option selected="">3</option>
+</select>
+`;
+
+exports[`Select should render with children 1`] = `
+<select class="form-control select-root">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+</select>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should render 1`] = `<span class="avatar-root rounded-circle sticker sticker-danger"></span>`;
+
+exports[`Avatar should render with a first and last name 1`] = `<span class="avatar-root rounded-circle sticker sticker-danger">fb</span>`;
+
+exports[`Avatar should render with a first name 1`] = `<span class="avatar-root rounded-circle sticker sticker-danger">f</span>`;
+
+exports[`Avatar should render with a portraitURL 1`] = `
+<span class="avatar-root rounded-circle sticker sticker-danger">
+  <img src="http://i.imgur.com/G5pfP.jpg" alt="thumbnail" class="img-fluid">
+</span>
+`;
+
+exports[`Avatar should render with a specific color id 1`] = `<span class="avatar-root rounded-circle sticker sticker-success"></span>`;
+
+exports[`Avatar should render with a specific size 1`] = `<span class="avatar-root rounded-circle sticker sticker-danger sticker-xl"></span>`;

@@ -1,0 +1,47 @@
+.navbar {
+	&.navbar-expand {
+		justify-content: flex-start;
+
+		.navbar-nav:not(first-child) {
+			margin-left: 36px;
+		}
+	}
+
+	&.navbar-dark {
+		background: lighten($body-color, 4%);
+	}
+
+	&:not(.navbar-dark) {
+		.nav-link {
+			color: $body-color;
+		}
+	}
+
+	&.navigation-bar {
+		font-size: 14px;
+		line-height: 20px;
+
+		.nav-item {
+			margin-right: 10px;
+		}
+
+		.nav-underline .nav-link.active:after {
+			height: 3px;
+		}
+	}
+
+	.nav-item {
+		margin: auto 0;
+	}
+
+	.nav-link {
+		&.active {
+			font-weight: 600;
+		}
+	}
+
+	.navbar-brand {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}

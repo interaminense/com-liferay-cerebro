@@ -1,0 +1,43 @@
+.clause-editor-root {
+	$padding: 12px;
+
+	border-bottom: 1px solid lighten($main, 74%);
+
+	.save {
+		color: $success;
+		margin-right: 8px;
+	}
+
+	.clause-delete {
+		color: lighten($info, 30%);
+	}
+
+	.clause-display {
+		display: flex;
+		font-size: 14px;
+		font-weight: bold;
+		justify-content: space-between;
+		padding: $padding;
+	}
+
+	.clause-editing {
+		padding: $padding;
+	}
+
+	.editing-group {
+		display: flex;
+		margin-bottom: 12px;
+
+		.mapping-select, > .input-root {
+			margin-right: 12px;
+		}
+
+		> .mapping-select, > .input-root {
+			flex-grow: 1;
+		}
+	}
+
+	.operator {
+		font-weight: normal;
+	}
+}

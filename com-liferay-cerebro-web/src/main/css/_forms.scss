@@ -1,0 +1,25 @@
+.form-root {
+	.form-control-label {
+		font-size: 13px;
+
+		> span {
+			margin-left: 4px;
+		}
+	}
+
+	.has-danger {
+		color: $error;
+
+		.form-control {
+			border-color: $error;
+		}
+	}
+
+	.has-success {
+		color: $success;
+
+		.form-control {
+			border-color: $success;
+		}
+	}
+}

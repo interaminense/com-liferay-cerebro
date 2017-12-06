@@ -1,0 +1,31 @@
+import com.liferay.gradle.plugins.app.docker.AppDockerPlugin
+
+buildscript {
+	dependencies {
+		classpath group: "com.liferay", name: "com.liferay.gradle.plugins.app.docker", version: "1.0.4"
+	}
+
+	repositories {
+		maven {
+			url "https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public"
+		}
+	}
+}
+
+subprojects {
+	tasks.all {
+		Task task ->
+
+		if (task.name == "deployDependencies") {
+			
+		}
+
+		if (task.name == "test") {
+			ignoreFailures = false
+		}
+
+		if (task.name == "testIntegration") {
+			ignoreFailures = false
+		}
+	}
+}

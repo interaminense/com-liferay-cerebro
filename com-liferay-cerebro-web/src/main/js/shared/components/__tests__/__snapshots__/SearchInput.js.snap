@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchInput should render input 1`] = `
+<div class="">
+  <div class="input-group input-group-inset">
+    <div class="input-group-input">
+      <input placeholder="search" class="input-root form-control" type="text">
+    </div>
+    <span class="input-group-inset-item">
+      <button class="button-root btn btn-unstyled" type="button">
+        <svg class="icon-root lexicon-icon lexicon-icon-search">
+          <use xlink:href="/images/lexicon/icons.svg#search"></use>
+        </svg>
+      </button>
+    </span>
+  </div>
+</div>
+`;

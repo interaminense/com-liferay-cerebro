@@ -1,0 +1,29 @@
+.profile-root {
+	height: 100%;
+
+	&.editing {
+		background: #A2A7C2;
+	}
+
+	.cards-container-root {
+		padding: 24px;
+	}
+
+	.editing-footer-root {
+		bottom: 0;
+		left: 0;
+		padding: 16px;
+		position: fixed;
+		right: 0;
+
+		.nav-item:first-child {
+			margin-right: 12px;
+		}
+	}
+
+	.profile-toolbar-root {
+		.edit-button {
+			margin-right: 4px;
+		}
+	}
+}

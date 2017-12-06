@@ -1,0 +1,15 @@
+.icon-card-selector-root {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	li {
+		cursor: pointer;
+		display: inline-block;
+
+		&.selected {
+			border: 2px solid $primary;
+			border-radius: 4px;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OverlayRenderer should render 1`] = `<div class="overlay-renderer-root"></div>`;
+
+exports[`OverlayRenderer should render multiple overlays from the store 1`] = `
+<div class="overlay-renderer-root">
+  <div data-overlayid="1" id="overlay1Container" class="card overlay-container-root">
+    <div>overlay1</div>
+  </div>
+  <div data-overlayid="2" id="overlay2Container" class="card overlay-container-root">
+    <div>overlay2</div>
+  </div>
+</div>
+`;
+
+exports[`OverlayRenderer should render overlays from the store 1`] = `
+<div class="overlay-renderer-root">
+  <div data-overlayid="1" id="overlay1Container" class="card overlay-container-root">
+    <div>foobar</div>
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sticker should render 1`] = `
+<div class="sticker sticker-root sticker-rounded sticker-static">
+  <svg class="icon-root lexicon-icon lexicon-icon-file">
+    <use xlink:href="/images/lexicon/icons.svg#file"></use>
+  </svg>
+</div>
+`;

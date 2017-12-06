@@ -1,0 +1,36 @@
+.file-drop-target-root {
+	width: 356px;
+
+	.drop-target-container {
+		align-items: center;
+		border: 1px dashed;
+		border-radius: 4px;
+		display: flex;
+		height: 160px;
+		justify-content: center;
+		width: 240px;
+
+		> span {
+			pointer-events: none;
+		}
+	}
+
+	.choose-file {
+		display: flex;
+		margin-top: 8px;
+
+		.button-root {
+			margin-left: 4px;
+			padding: 0;
+		}
+	}
+
+	.upload-pending {
+		text-align: center;
+		width: 100%;
+
+		.progress-bar-root {
+			margin: 20px 0;
+		}
+	}
+}

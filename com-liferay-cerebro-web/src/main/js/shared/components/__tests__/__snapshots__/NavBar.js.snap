@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar should render 1`] = `<nav class="navbar"></nav>`;
+
+exports[`NavBar should render Brand as a child 1`] = `
+<nav class="navbar">
+  <div class="navbar-brand">foo bar</div>
+</nav>
+`;
+
+exports[`NavBar should render with dark display 1`] = `<nav class="navbar navbar-dark"></nav>`;
+
+exports[`NavBar should render with light display 1`] = `<nav class="navbar navbar-light"></nav>`;

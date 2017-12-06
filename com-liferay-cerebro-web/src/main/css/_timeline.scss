@@ -1,0 +1,86 @@
+.timeline-root {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+
+	.bar {
+		align-self: flex-end;
+		background: $white;
+		height: 6px;
+		position: relative;
+		top: -13px;
+		width: 100%;
+		z-index: -1;
+
+		&.filled {
+			background: $baseColor;
+		}
+	}
+
+	.step {
+		flex-shrink: 0;
+		position: relative;
+
+		&.active .circle {
+			background: $primary;
+			color: $white;
+		}
+
+		&.previous-step .circle {
+			background: $baseColor;
+			color: $white;
+		}
+
+		&:not(:last-child) {
+			&.previous-step {
+				.circle:after, .circle:before {
+					background: $baseColor;
+				}
+			}
+
+			.circle:after {
+				background: $white;
+				bottom: 13px;
+				content: '';
+				height: 6px;
+				left: 50%;
+				position: absolute;
+				width: 50%;
+				z-index: -1;
+			}
+		}
+
+		&:not(:first-child) {
+			&.active .circle:before {
+				background: $baseColor;
+			}
+
+			.circle:before {
+				background: $white;
+				bottom: 13px;
+				content: '';
+				height: 6px;
+				left: 0;
+				position: absolute;
+				width: 50%;
+				z-index: -1;
+			}
+		}
+
+		.circle {
+			align-items: center;
+			background: $white;
+			border-radius: 50%;
+			color: $baseColor;
+			display: flex;
+			height: 32px;
+			justify-content: center;
+			margin: 0 auto;
+			width: 32px;
+		}
+
+		.title {
+			margin-bottom: 8px;
+		}
+	}
+}

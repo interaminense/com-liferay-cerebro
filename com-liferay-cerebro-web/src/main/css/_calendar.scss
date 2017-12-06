@@ -1,0 +1,70 @@
+.calendar-root {
+	border-collapse: separate;
+	border-spacing: 0;
+	font-size: 14px;
+
+	th, tr {
+		text-align: center;
+	}
+
+	td {
+		padding: 4px 0;
+		position: relative;
+
+		&:before {
+			background: transparent;
+			bottom: 4px;
+			content: '';
+			position: absolute;
+			top: 4px;
+			transition: background 0.2s ease-in-out;
+			z-index: 1;
+		}
+
+		&.in-range > .day-container {
+			background: lighten(map-get($theme-colors, primary), 43%);
+		}
+
+		&.start-range:before {
+			background: lighten(map-get($theme-colors, primary), 43%);
+			left: 50%;
+			right: 0;
+		}
+
+		&.end-range:before {
+			background: lighten(map-get($theme-colors, primary), 43%);
+			left: 0%;
+			right: 50%;
+		}
+	}
+
+	.day-container {
+		background: transparent;
+		padding: 0 5px;
+		transition: background 0.2s ease-in-out;
+	}
+
+	.day-root {
+		background: transparent;
+		border-radius: 50%;
+		border-width: 0;
+		height: 32px;
+		position: relative;
+		text-align: center;
+		width: 32px;
+		z-index: 2;
+
+		&:hover {
+			background: lighten(map-get($theme-colors, secondary), 50%);
+		}
+
+		&.outside-month {
+			color: $text-muted;
+		}
+
+		&.selected {
+			background-color: map-get($theme-colors, primary);
+			color: $white;
+		}
+	}
+}

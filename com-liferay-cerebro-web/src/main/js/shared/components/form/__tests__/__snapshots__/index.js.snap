@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render a Form 1`] = `<form class="form-root"></form>`;
+
+exports[`Form should render a Form Group 1`] = `<div class="form-group"></div>`;
+
+exports[`Form should render an autofit Form Group 1`] = `<div class="form-group form-inline-autofit"></div>`;
+
+exports[`Form should render an inline Form Group 1`] = `<div class="form-group form-inline"></div>`;

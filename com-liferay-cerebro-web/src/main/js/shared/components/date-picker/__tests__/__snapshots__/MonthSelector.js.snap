@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MonthSelector should render 1`] = `
+<div class="month-selector-root">
+  <div class="year-root expanded">
+    <div class="year-header">2017
+      <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+        <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+      </svg>
+    </div>
+    <div class="year-body">
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Jan</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Feb</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Mar</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Apr</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">May</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Jun</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Jul</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Aug</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Sep</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Oct</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Nov</button>
+      </div>
+      <div class="month-root">
+        <button class="button-root btn btn-unstyled" type="button">Dec</button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

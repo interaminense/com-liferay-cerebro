@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileDropTarget should render 1`] = `
+<div class="file-drop-target-root">
+  <div class="drop-target-container">
+    <span>
+      <div class="drop-zone drop-zone-fade-in-appear">drop-your-x-file-here</div>
+    </span>
+  </div>
+  <div class="choose-file">or-upload-it-from-your-files
+    <button class="button-root btn btn-link" type="button">browse</button>
+  </div>
+</div>
+`;

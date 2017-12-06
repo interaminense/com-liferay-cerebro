@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render 1`] = `<div class="card"></div>`;
+
+exports[`Card should render horizontal 1`] = `<div class="card horizontal"></div>`;

@@ -1,0 +1,40 @@
+.segment-edit-root {
+	$border: 2px solid $body-bg;
+	$navbar-offset: 60px;
+
+	.results-container, .segment-form-container {
+		padding: 0;
+	}
+
+	.form-header, .form-body, .form-footer {
+		padding: 24px;
+	}
+
+	.form-header, .form-body {
+		border-bottom: $border;
+	}
+
+	.segment-form {
+		display: flex;
+		flex-direction: column;
+		min-height: calc(100vh - #{$navbar-offset});
+	}
+
+	.form-body {
+		flex-grow: 1;
+	}
+
+	.segment-form-container {
+		background-color: $white;
+		border-right: $border;
+	}
+
+	.form-footer {
+		display: flex;
+		justify-content: flex-end;
+
+		.button-root {
+			margin-left: 8px;
+		}
+	}
+}

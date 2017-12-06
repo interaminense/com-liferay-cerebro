@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectItemsList should render 1`] = `
+<ul class="list-group list-group-root">
+  <li class="list-group-item list-group-item-flex">
+    <div class="flex-col">
+      <div class="custom-control custom-checkbox">
+        <label>
+          <input class="custom-control-input" ref="checkbox" type="checkbox">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description"></span>
+        </label>
+      </div>
+    </div>
+    <div class="flex-col flex-col-expand">Portland</div>
+  </li>
+  <li class="list-group-item list-group-item-flex">
+    <div class="flex-col">
+      <div class="custom-control custom-checkbox">
+        <label>
+          <input class="custom-control-input" ref="checkbox" type="checkbox">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description"></span>
+        </label>
+      </div>
+    </div>
+    <div class="flex-col flex-col-expand">San Diego</div>
+  </li>
+  <li class="list-group-item list-group-item-flex">
+    <div class="flex-col">
+      <div class="custom-control custom-checkbox">
+        <label>
+          <input class="custom-control-input" ref="checkbox" type="checkbox">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description"></span>
+        </label>
+      </div>
+    </div>
+    <div class="flex-col flex-col-expand">Seattle</div>
+  </li>
+</ul>
+`;
+
+exports[`SelectItemsList should render with checked items 1`] = `
+<ul class="list-group list-group-root">
+  <li class="list-group-item list-group-item-flex">
+    <div class="flex-col">
+      <div class="custom-control custom-checkbox">
+        <label>
+          <input class="custom-control-input" ref="checkbox" type="checkbox">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description"></span>
+        </label>
+      </div>
+    </div>
+    <div class="flex-col flex-col-expand">Portland</div>
+  </li>
+  <li class="list-group-item list-group-item-flex">
+    <div class="flex-col">
+      <div class="custom-control custom-checkbox">
+        <label>
+          <input class="custom-control-input" ref="checkbox" type="checkbox">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description"></span>
+        </label>
+      </div>
+    </div>
+    <div class="flex-col flex-col-expand">San Diego</div>
+  </li>
+  <li class="list-group-item list-group-item-flex">
+    <div class="flex-col">
+      <div class="custom-control custom-checkbox">
+        <label>
+          <input class="custom-control-input" ref="checkbox" type="checkbox">
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description"></span>
+        </label>
+      </div>
+    </div>
+    <div class="flex-col flex-col-expand">Seattle</div>
+  </li>
+</ul>
+`;

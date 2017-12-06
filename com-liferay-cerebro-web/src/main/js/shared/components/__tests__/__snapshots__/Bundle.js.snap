@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bundle should render a component returned from an import promise 1`] = `<h1>Test Component</h1>`;

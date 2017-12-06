@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup should render RadioGroup 1`] = `<div class="form-check"></div>`;
+
+exports[`RadioGroup should render RadioGroup as disabled 1`] = `
+<div class="form-check disabled">
+  <div class="custom-control custom-radio">
+    <label>
+      <input disabled="" name="foo" class="custom-control-input" type="radio">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">1</span>
+    </label>
+  </div>
+  <div class="custom-control custom-radio">
+    <label>
+      <input disabled="" name="foo" class="custom-control-input" type="radio">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">2</span>
+    </label>
+  </div>
+  <div class="custom-control custom-radio">
+    <label>
+      <input disabled="" name="foo" class="custom-control-input" type="radio">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">3</span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioGroup should render RadioGroup with a selected value 1`] = `
+<div class="form-check">
+  <div class="custom-control custom-radio">
+    <label>
+      <input checked="" name="foo" class="custom-control-input" type="radio">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">1</span>
+    </label>
+  </div>
+  <div class="custom-control custom-radio">
+    <label>
+      <input name="foo" class="custom-control-input" type="radio">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">2</span>
+    </label>
+  </div>
+  <div class="custom-control custom-radio">
+    <label>
+      <input name="foo" class="custom-control-input" type="radio">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">3</span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioGroup should render RadioGroup with children 1`] = `
+<div class="form-check">
+  <div class="custom-control custom-radio">
+    <label>
+      <input name="foo" class="custom-control-input" type="radio">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">1</span>
+    </label>
+  </div>
+  <div class="custom-control custom-radio">
+    <label>
+      <input name="foo" class="custom-control-input" type="radio">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">2</span>
+    </label>
+  </div>
+  <div class="custom-control custom-radio">
+    <label>
+      <input name="foo" class="custom-control-input" type="radio">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">3</span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`RadioGroup.Option should render Option 1`] = `
+<div class="custom-control custom-radio">
+  <label>
+    <input class="custom-control-input" type="radio">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description"></span>
+  </label>
+</div>
+`;
+
+exports[`RadioGroup.Option should render Option with label 1`] = `
+<div class="custom-control custom-radio">
+  <label>
+    <input class="custom-control-input" type="radio">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">foo bar</span>
+  </label>
+</div>
+`;
+
+exports[`RadioGroup.Option should render Option with value 1`] = `
+<div class="custom-control custom-radio">
+  <label>
+    <input class="custom-control-input" type="radio">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description"></span>
+  </label>
+</div>
+`;

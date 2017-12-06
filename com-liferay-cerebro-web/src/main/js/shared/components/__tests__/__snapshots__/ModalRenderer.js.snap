@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalRenderer should render 1`] = `<div class="modal-renderer-root"></div>`;
+
+exports[`ModalRenderer should render multiple modals 1`] = `
+<div class="modal-renderer-root">
+  <div class="modal-container d-block fade modal show" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal</h4>
+          <button class="button-root btn btn-secondary close" type="button">
+            <svg class="icon-root lexicon-icon lexicon-icon-times">
+              <use xlink:href="/images/lexicon/icons.svg#times"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body inline-scroller">
+          <h4>Modal Body</h4>
+        </div>
+        <div class="modal-footer">
+          <button class="button-root btn btn-secondary" type="button">Submit</button>
+          <button class="button-root btn btn-secondary" type="button">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-container d-block fade modal show" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal</h4>
+          <button class="button-root btn btn-secondary close" type="button">
+            <svg class="icon-root lexicon-icon lexicon-icon-times">
+              <use xlink:href="/images/lexicon/icons.svg#times"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body inline-scroller">
+          <h4>Modal Body</h4>
+        </div>
+        <div class="modal-footer">
+          <button class="button-root btn btn-secondary" type="button">Submit</button>
+          <button class="button-root btn btn-secondary" type="button">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-backdrop fade show"></div>
+</div>
+`;
+
+exports[`ModalRenderer should render test modal 1`] = `
+<div class="modal-renderer-root">
+  <div class="modal-container d-block fade modal show" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal</h4>
+          <button class="button-root btn btn-secondary close" type="button">
+            <svg class="icon-root lexicon-icon lexicon-icon-times">
+              <use xlink:href="/images/lexicon/icons.svg#times"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body inline-scroller">
+          <h4>Modal Body</h4>
+        </div>
+        <div class="modal-footer">
+          <button class="button-root btn btn-secondary" type="button">Submit</button>
+          <button class="button-root btn btn-secondary" type="button">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-backdrop fade show"></div>
+</div>
+`;
+
+exports[`should render with title 'FooBar' 1`] = `
+<div class="modal-renderer-root">
+  <div class="modal-container d-block fade modal show" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">FooBar</h4>
+          <button class="button-root btn btn-secondary close" type="button">
+            <svg class="icon-root lexicon-icon lexicon-icon-times">
+              <use xlink:href="/images/lexicon/icons.svg#times"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="modal-body inline-scroller">
+          <h4>Modal Body</h4>
+        </div>
+        <div class="modal-footer">
+          <button class="button-root btn btn-secondary" type="button">Submit</button>
+          <button class="button-root btn btn-secondary" type="button">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-backdrop fade show"></div>
+</div>
+`;

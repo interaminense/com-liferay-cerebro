@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timeline should render 1`] = `
+<div class="timeline-root">
+  <a class="step previous-step">
+    <div class="title">This is a really long title for this step</div>
+    <div class="circle">
+      <svg class="icon-root lexicon-icon lexicon-icon-check">
+        <use xlink:href="/images/lexicon/icons.svg#check"></use>
+      </svg>
+    </div>
+  </a>
+  <span class="bar filled"></span>
+  <a class="step active">
+    <div class="title">Step 2</div>
+    <div class="circle">2</div>
+  </a>
+  <span class="bar"></span>
+  <a class="step">
+    <div class="title">Step 3</div>
+    <div class="circle">3</div>
+  </a>
+  <span class="bar"></span>
+  <a class="step">
+    <div class="title">Step 4</div>
+    <div class="circle">4</div>
+  </a>
+</div>
+`;

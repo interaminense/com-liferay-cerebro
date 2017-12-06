@@ -1,0 +1,18 @@
+{
+	"layoutTemplateId": "2_columns_ii",
+	"publicPages": [
+		{
+			"columns": [
+				[
+					
+				],
+				[
+					
+				]
+			],
+			"friendlyURL": "/analytics",
+			"name": "Analytics",
+			"title": "Analytics"
+		}
+	]
+}

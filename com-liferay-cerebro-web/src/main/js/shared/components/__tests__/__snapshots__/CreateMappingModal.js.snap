@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateMappingModal should render 1`] = `
+<div class="modal-dialog modal-lg create-mapping-modal-root">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h4 class="modal-title">create-new-scv-field</h4>
+      <button class="button-root btn btn-secondary close" type="button">
+        <svg class="icon-root lexicon-icon lexicon-icon-times">
+          <use xlink:href="/images/lexicon/icons.svg#times"></use>
+        </svg>
+      </button>
+    </div>
+    <form class="form-root">
+      <div class="form-group form-inline form-inline-autofit">
+        <div class="">
+          <label for="FormInput1" class="form-control-label label-root">new-field-name</label>
+          <input placeholder="enter-new-field-name" id="FormInput1" value="" class="input-root form-control" type="text">
+        </div>
+        <div>
+          <label>field-type</label>
+          <div class="dropdown dropdown-root searchable-select-root" id="overlay3">
+            <button class="button-root btn btn-secondary dropdown-toggle" type="button">
+              <span class="text-truncate">select </span>
+              <span>
+                <svg class="icon-root lexicon-icon lexicon-icon-caret-double">
+                  <use xlink:href="/images/lexicon/icons.svg#caret-double"></use>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="button-root btn btn-secondary" type="button">cancel</button>
+        <button class="button-root btn btn-primary" type="submit">create</button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render input 1`] = `<input class="input-root form-control" type="text">`;
+
+exports[`Input should render input addon 1`] = `<div class="input-group-addon"></div>`;
+
+exports[`Input should render input button 1`] = `
+<span class="input-group-btn">
+  <button class="button-root btn btn-secondary" type="button"></button>
+</span>
+`;
+
+exports[`Input should render input group 1`] = `<div class="input-group"></div>`;
+
+exports[`Input should render input group input 1`] = `<div class="input-group-input"></div>`;
+
+exports[`Input should render input group with different size 1`] = `<div class="input-group input-group-lg"></div>`;
+
+exports[`Input should render input group with inset 1`] = `<div class="input-group input-group-inset"></div>`;
+
+exports[`Input should render input inset 1`] = `<span class="input-group-inset-item"></span>`;
+
+exports[`Input should render input with a different size 1`] = `<input class="input-root form-control form-control-lg" type="text">`;

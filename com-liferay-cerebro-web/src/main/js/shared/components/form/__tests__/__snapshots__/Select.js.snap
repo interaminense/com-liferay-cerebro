@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render 1`] = `
+<div class="">
+  <select id="FormSelect1" value="" class="form-control select-root"></select>
+</div>
+`;
+
+exports[`Select should render help block with a message 1`] = `
+<div class="has-success">
+  <select id="FormSelect3" value="" class="form-control select-root"></select>
+  <div class="help-block">test</div>
+</div>
+`;
+
+exports[`Select should render with a label 1`] = `
+<div class="">
+  <label for="FormSelect2" class="form-control-label label-root">foo</label>
+  <select id="FormSelect2" value="" class="form-control select-root"></select>
+</div>
+`;

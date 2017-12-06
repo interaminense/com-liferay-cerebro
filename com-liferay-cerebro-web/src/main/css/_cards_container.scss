@@ -1,0 +1,9 @@
+.cards-container-root {
+	display: flex;
+	flex-wrap: wrap;
+
+	.card-wrapper {
+		flex-basis: 350px;
+		margin: 12px;
+	}
+}

@@ -1,0 +1,5 @@
+Bundle-Name: Liferay Cerebro Web
+Bundle-SymbolicName: com.liferay.cerebro.web
+Bundle-Version: 1.0.0
+Web-ContextPath: /com-liferay-cerebro-web
+-dsannotations-options: inherit

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectItemsModal should render 1`] = `
+<div class="modal-dialog modal-lg select-items-modal-root">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h4 class="modal-title">select-fields</h4>
+      <button class="button-root btn btn-secondary close" type="button">
+        <svg class="icon-root lexicon-icon lexicon-icon-times">
+          <use xlink:href="/images/lexicon/icons.svg#times"></use>
+        </svg>
+      </button>
+    </div>
+    <div>
+      <nav class="navbar navbar-light">
+        <ul class="nav-root navbar-nav" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="button-root btn btn-link nav-link" type="button">
+              <svg class="icon-root lexicon-icon lexicon-icon-import-export">
+                <use xlink:href="/images/lexicon/icons.svg#import-export"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+        <div class="navbar-form navbar-form-autofit">
+          <div class="input-group input-group-inset">
+            <div class="input-group-input">
+              <input placeholder="search" class="input-root form-control" type="text">
+            </div>
+            <span class="input-group-inset-item">
+              <svg class="icon-root lexicon-icon lexicon-icon-search">
+                <use xlink:href="/images/lexicon/icons.svg#search"></use>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </nav>
+      <div class="scroll-container">
+        <div class="items-header"></div>
+        <ul class="list-group list-group-root"></ul>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="button-root btn btn-secondary" type="button">cancel</button>
+      <button class="button-root btn btn-primary" type="button">select</button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,48 @@
+.data-transformation-list-root {
+	.input-group-transparent {
+		.form-inline-group:first-child {
+			margin: 0;
+		}
+
+		.form-group.form-inline {
+			flex: 0;
+
+			.example-value {
+				text-align: left;
+				width: 300px;
+			}
+		}
+	}
+
+	.data-transformation-item-root {
+		margin: 0 -20px;
+		padding: 24px 24px 0;
+
+		&:first-child .input-group-addon {
+			margin-top: 20px;
+		}
+
+		&.odd {
+			background: rgba(#899FB9, 0.06);
+		}
+
+		&.warn {
+			.icon-root.help {
+				color: $error;
+			}
+
+			.suggestion .dropdown-toggle {
+				background-color: lighten($error, 50%);
+				border-color: lighten($error, 30%);
+			}
+		}
+
+		> .form-group {
+			margin: 0;
+		}
+
+		.help {
+			color: $info;
+		}
+	}
+}

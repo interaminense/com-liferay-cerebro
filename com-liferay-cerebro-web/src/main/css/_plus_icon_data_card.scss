@@ -1,0 +1,14 @@
+.plus-icon-data-card-root {
+	align-items: center;
+	background: rgba(#FBFBFB, 0.15);
+	border-radius: 4px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	min-height: $dataCardMaxHeight;
+	width: $dataCardWidth;
+
+	svg {
+		fill: #6B6C7E;
+	}
+}

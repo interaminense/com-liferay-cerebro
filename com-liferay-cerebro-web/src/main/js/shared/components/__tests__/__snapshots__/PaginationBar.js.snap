@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationBar should render 1`] = `
+<nav class="navbar pagination-bar-root">
+  <div class="dropdown dropdown-root pagination-items-per-page" id="overlay1">
+    <button class="button-root btn btn-secondary btn-sm dropdown-toggle" type="button">
+      <span class="text-truncate">10 </span>
+      <span>
+        <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+          <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div class="pagination-results">showing-x-to-x-of-x-entries</div>
+  <ul class="pagination pagination-root">
+    <li class="page-item">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+          <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+        </svg>
+      </button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">1</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">2</button>
+    </li>
+    <li class="page-item active">
+      <button class="page-link">3</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">4</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">5</button>
+    </li>
+    <li class="page-item">
+      <div class="dropdown dropdown-root" id="overlay2">
+        <button class="button-root btn btn-link nav-link dropdown-toggle page-link" type="button">
+          <span class="text-truncate">... </span>
+        </button>
+      </div>
+    </li>
+    <li class="page-item">
+      <button class="page-link">10</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+          <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+        </svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`PaginationBar should render different deltas 1`] = `
+<nav class="navbar pagination-bar-root">
+  <div class="dropdown dropdown-root pagination-items-per-page" id="overlay9">
+    <button class="button-root btn btn-secondary btn-sm dropdown-toggle" type="button">
+      <span class="text-truncate">1 </span>
+      <span>
+        <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+          <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div class="pagination-results">showing-x-to-x-of-x-entries</div>
+  <ul class="pagination pagination-root">
+    <li class="page-item disabled">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+          <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+        </svg>
+      </button>
+    </li>
+    <li class="page-item active">
+      <button class="page-link">1</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">2</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">3</button>
+    </li>
+    <li class="page-item">
+      <div class="dropdown dropdown-root" id="overlay10">
+        <button class="button-root btn btn-link nav-link dropdown-toggle page-link" type="button">
+          <span class="text-truncate">... </span>
+        </button>
+      </div>
+    </li>
+    <li class="page-item">
+      <button class="page-link">10</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+          <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+        </svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`PaginationBar should render with buttons if passed an onPageChange handler 1`] = `
+<nav class="navbar pagination-bar-root">
+  <div class="dropdown dropdown-root pagination-items-per-page" id="overlay3">
+    <button class="button-root btn btn-secondary btn-sm dropdown-toggle" type="button">
+      <span class="text-truncate">10 </span>
+      <span>
+        <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+          <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div class="pagination-results">showing-x-to-x-of-x-entries</div>
+  <ul class="pagination pagination-root">
+    <li class="page-item">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+          <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+        </svg>
+      </button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">1</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">2</button>
+    </li>
+    <li class="page-item active">
+      <button class="page-link">3</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">4</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">5</button>
+    </li>
+    <li class="page-item">
+      <div class="dropdown dropdown-root" id="overlay4">
+        <button class="button-root btn btn-link nav-link dropdown-toggle page-link" type="button">
+          <span class="text-truncate">... </span>
+        </button>
+      </div>
+    </li>
+    <li class="page-item">
+      <button class="page-link">10</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+          <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+        </svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`PaginationBar should render with large size 1`] = `
+<nav class="navbar pagination-bar-root pagination-lg">
+  <div class="dropdown dropdown-root pagination-items-per-page" id="overlay7">
+    <button class="button-root btn btn-secondary btn-sm dropdown-toggle" type="button">
+      <span class="text-truncate">10 </span>
+      <span>
+        <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+          <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div class="pagination-results">showing-x-to-x-of-x-entries</div>
+  <ul class="pagination pagination-root">
+    <li class="page-item">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+          <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+        </svg>
+      </button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">1</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">2</button>
+    </li>
+    <li class="page-item active">
+      <button class="page-link">3</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">4</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">5</button>
+    </li>
+    <li class="page-item">
+      <div class="dropdown dropdown-root" id="overlay8">
+        <button class="button-root btn btn-link nav-link dropdown-toggle page-link" type="button">
+          <span class="text-truncate">... </span>
+        </button>
+      </div>
+    </li>
+    <li class="page-item">
+      <button class="page-link">10</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+          <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+        </svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`PaginationBar should render with small size 1`] = `
+<nav class="navbar pagination-bar-root pagination-sm">
+  <div class="dropdown dropdown-root pagination-items-per-page" id="overlay5">
+    <button class="button-root btn btn-secondary btn-sm dropdown-toggle" type="button">
+      <span class="text-truncate">10 </span>
+      <span>
+        <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+          <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div class="pagination-results">showing-x-to-x-of-x-entries</div>
+  <ul class="pagination pagination-root">
+    <li class="page-item">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-left">
+          <use xlink:href="/images/lexicon/icons.svg#angle-left"></use>
+        </svg>
+      </button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">1</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">2</button>
+    </li>
+    <li class="page-item active">
+      <button class="page-link">3</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">4</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">5</button>
+    </li>
+    <li class="page-item">
+      <div class="dropdown dropdown-root" id="overlay6">
+        <button class="button-root btn btn-link nav-link dropdown-toggle page-link" type="button">
+          <span class="text-truncate">... </span>
+        </button>
+      </div>
+    </li>
+    <li class="page-item">
+      <button class="page-link">10</button>
+    </li>
+    <li class="page-item">
+      <button class="page-link">
+        <svg class="icon-root lexicon-icon lexicon-icon-angle-right">
+          <use xlink:href="/images/lexicon/icons.svg#angle-right"></use>
+        </svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should render 1`] = `
+<div class="dropdown dropdown-root" id="overlay1">
+  <button class="button-root btn btn-secondary dropdown-toggle" type="button">
+    <span class="text-truncate"></span>
+    <span>
+      <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+        <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+      </svg>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Dropdown should render items as links when href is passed to an item 1`] = `<a class="dropdown-item text-truncate" href="#foo"></a>`;
+
+exports[`Dropdown should render with a different button display 1`] = `
+<div class="dropdown dropdown-root" id="overlay3">
+  <button class="button-root btn btn-link dropdown-toggle" type="button">
+    <span class="text-truncate"></span>
+    <span>
+      <svg class="icon-root lexicon-icon lexicon-icon-caret-bottom">
+        <use xlink:href="/images/lexicon/icons.svg#caret-bottom"></use>
+      </svg>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Dropdown should render without caret 1`] = `
+<div class="dropdown dropdown-root" id="overlay2">
+  <button class="button-root btn btn-secondary dropdown-toggle" type="button">
+    <span class="text-truncate"></span>
+  </button>
+</div>
+`;

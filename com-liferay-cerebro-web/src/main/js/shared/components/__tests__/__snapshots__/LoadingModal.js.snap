@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingModal should render 1`] = `
+<div class="modal-dialog modal-sm loading-modal-root">
+  <div class="modal-content">
+    <div class="icon-container">
+      <div class="spinner-root loading-icon dotted loading-icon-lg"></div>
+    </div>
+    <p class="message">loading</p>
+  </div>
+</div>
+`;
+
+exports[`LoadingModal should render an icon 1`] = `
+<div class="modal-dialog modal-sm loading-modal-root">
+  <div class="modal-content">
+    <div class="icon-container">
+      <svg class="icon-root lexicon-icon lexicon-icon-foo icon-size-xl">
+        <use xlink:href="/images/lexicon/icons.svg#foo"></use>
+      </svg>
+    </div>
+    <p class="message">loading</p>
+  </div>
+</div>
+`;
+
+exports[`LoadingModal should render with a message and a title 1`] = `
+<div class="modal-dialog modal-sm loading-modal-root">
+  <div class="modal-content">
+    <h1 class="title">bar</h1>
+    <div class="icon-container">
+      <div class="spinner-root loading-icon dotted loading-icon-lg"></div>
+    </div>
+    <p class="message">foo</p>
+  </div>
+</div>
+`;

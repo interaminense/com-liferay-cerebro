@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner should render 1`] = `<div class="spinner-root loading-icon dotted"></div>`;
+
+exports[`Spinner should render 2`] = `<div class="spinner-root loading-icon linear loading-icon-lg"></div>`;

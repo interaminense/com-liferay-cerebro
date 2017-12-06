@@ -1,0 +1,23 @@
+.entity-list-root {
+	&.list-group {
+		box-shadow: none;
+	}
+
+	.list-group-item, .list-group-header {
+		border-left-width: 0;
+		border-radius: 0;
+		border-right-width: 0;
+	}
+
+	.list-group-header {
+		background-color: $listHeaderColor;
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 16px;
+		padding: 8px 24px;
+
+		.flex-col:first-child {
+			text-transform: uppercase;
+		}
+	}
+}

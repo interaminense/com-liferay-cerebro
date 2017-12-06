@@ -1,0 +1,17 @@
+.sortable-list-group-root {
+	.list-group-item {
+		position: static;
+
+		&.dragging {
+			opacity: 0.9;
+		}
+	}
+
+	.handle {
+		cursor: move;
+	}
+
+	.remove {
+		cursor: pointer;
+	}
+}

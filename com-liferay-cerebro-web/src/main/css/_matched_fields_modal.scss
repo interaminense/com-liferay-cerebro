@@ -1,0 +1,31 @@
+.matched-fields-modal-root {
+	.summary {
+		padding: 24px 24px 0;
+
+		> .icon-root {
+			margin: 0 8px;
+		}
+	}
+
+	.data-transformation-item-root {
+		margin: 0;
+		padding: 24px 0 0;
+
+		> .form-group {
+			justify-content: center;
+		}
+	}
+
+	.searchable-select-root {
+		width: 300px;
+
+		.dropdown-item, .dropdown-toggle {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+
+	.modal-footer {
+		justify-content: space-between;
+	}
+}

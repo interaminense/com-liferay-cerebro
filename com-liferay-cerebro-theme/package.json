@@ -1,0 +1,18 @@
+{
+	"dependencies": {
+		"gulp": "^3.8.10",
+		"liferay-theme-deps-7.0": "*",
+		"liferay-theme-tasks": "*"
+	},
+	"keywords": [
+		"liferay-theme"
+	],
+	"license": "LGPL",
+	"liferayTheme": {
+		"version": "7.0"
+	},
+	"main": "package.json",
+	"name": "com-liferay-cerebro",
+	"repository": "liferay/com-liferay-cerebro",
+	"version": "1.0.0"
+}

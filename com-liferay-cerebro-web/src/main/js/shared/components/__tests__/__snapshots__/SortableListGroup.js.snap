@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortableListGroup should render 1`] = `
+<ul class="list-group list-group-root sortable-list-group-root">
+  <li class="list-group-item list-group-item-flex">
+    <div class="flex-col handle">
+      <svg class="icon-root lexicon-icon lexicon-icon-bars">
+        <use xlink:href="/images/lexicon/icons.svg#bars"></use>
+      </svg>
+    </div>
+    <div class="flex-col flex-col-expand">foo</div>
+    <div class="flex-col">
+      <svg class="icon-root lexicon-icon lexicon-icon-times-circle remove">
+        <use xlink:href="/images/lexicon/icons.svg#times-circle"></use>
+      </svg>
+    </div>
+  </li>
+  <li class="list-group-item list-group-item-flex">
+    <div class="flex-col handle">
+      <svg class="icon-root lexicon-icon lexicon-icon-bars">
+        <use xlink:href="/images/lexicon/icons.svg#bars"></use>
+      </svg>
+    </div>
+    <div class="flex-col flex-col-expand">bar</div>
+    <div class="flex-col">
+      <svg class="icon-root lexicon-icon lexicon-icon-times-circle remove">
+        <use xlink:href="/images/lexicon/icons.svg#times-circle"></use>
+      </svg>
+    </div>
+  </li>
+</ul>
+`;

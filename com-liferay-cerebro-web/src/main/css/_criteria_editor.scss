@@ -1,0 +1,45 @@
+.criteria-editor-root {
+	$padding: 12px;
+	$border: 1px solid lighten($main, 74%);
+
+	width: 100%;
+
+	.add-clause-btn {
+		text-transform: uppercase;
+	}
+
+	.criteria-dropdown {
+		display: inline-block;
+		margin-left: 20px;
+		vertical-align: bottom;
+	}
+
+	.criteria-edit-name {
+		border-bottom: $border;
+		display: flex;
+		padding: 2px;
+
+		> .input-root {
+			flex-grow: 1;
+		}
+	}
+
+	.criteria-editor-header {
+		border-bottom: $border;
+		padding: $padding;
+	}
+
+	.criteria-editor-footer {
+		padding: $padding;
+	}
+
+	.criteria-editor-header {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.criteria-name {
+		font-weight: bold;
+	}
+}

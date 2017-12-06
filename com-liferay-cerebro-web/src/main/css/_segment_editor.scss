@@ -1,0 +1,27 @@
+.segment-editor-root {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	.criteria-container {
+		width: 100%;
+
+		.add-criteria {
+			text-align: center;
+
+			.button-root {
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	.no-criteria-message {
+		text-align: center;
+	}
+
+	.operator-container {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,18 @@
+.index-root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	&.has-sidebar {
+		padding-left: $sidebarClosedWidth;
+	}
+
+	.page-nav .nav-link {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	.items-container {
+		flex-grow: 1;
+	}
+}

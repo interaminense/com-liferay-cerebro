@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateInput should render 1`] = `
+<div class="input-group input-group-inset" id="overlay1">
+  <div class="input-group-input">
+    <input class="input-root form-control" type="text">
+  </div>
+  <span class="input-group-inset-item">
+    <button class="button-root btn btn-unstyled" type="button">
+      <svg class="icon-root lexicon-icon lexicon-icon-calendar">
+        <use xlink:href="/images/lexicon/icons.svg#calendar"></use>
+      </svg>
+    </button>
+  </span>
+</div>
+`;

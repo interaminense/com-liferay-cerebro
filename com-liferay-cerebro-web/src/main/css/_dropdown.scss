@@ -1,0 +1,25 @@
+.dropdown-root {
+	.dropdown-menu {
+		max-width: 100%;
+		position: initial;
+		width: 100%;
+
+		&.show {
+			z-index: 5000;
+		}
+
+		.footer-action {
+			padding: 16px;
+		}
+	}
+
+	.dropdown-toggle {
+		display: flex;
+		text-align: left;
+		width: 100%;
+
+		> .text-truncate {
+			flex-grow: 1;
+		}
+	}
+}
