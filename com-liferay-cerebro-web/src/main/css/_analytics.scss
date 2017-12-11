@@ -1,0 +1,161 @@
+$header-title: 1.5rem;
+
+/*
+ * Header
+*/
+
+.header {
+    background-color: $color-dark;
+    color: $color-clean;
+
+    .header__title {
+        margin: 0;
+        padding: $baseline 0;
+        font-size: $header-title;
+    }
+}
+
+/*
+ * Button
+*/
+
+$btn-primary-border-color: lighten($color-dark, 40%);
+
+.btn-dashboard {
+
+    &.btn-primary {
+        color: $color-dark;
+        background-color: $color-clean;
+        border: 1px solid $btn-primary-border-color;
+
+        &:hover {
+            color: $color-clean;
+            background-color: $color-dark;
+            border: 1px solid $color-dark;
+        }
+    }
+}
+
+/*
+ * Card
+*/
+
+$card-title-font-size: 1.3rem;
+$card-icon-font-size: 1rem;
+$card-number-font-size: 4rem;
+
+$card-icon-color: lighten($color-dark, 30%);
+
+.card-dashboard-group {
+    display: flex;
+
+    .card-dashboard {
+        margin: 0 3px;
+    }
+}
+
+.card-dashboard {
+    background-color: #F3F3F3;
+    text-align: center;
+    width: 100%;
+    padding: $baseline 0;
+    margin-bottom: $baseline;
+
+    .card-dashboard__title {
+        font-size: $card-title-font-size;
+        font-weight: 700;
+    }
+
+    .card-dashboard__icon {
+        font-size: $card-icon-font-size;
+        color: $card-icon-color;
+    }
+
+    .card-dashboard__number {
+        font-size: $card-number-font-size;
+        font-weight: 300;
+        line-height: $baseline * 3;
+    }
+}
+
+/*
+ * Custom Rows
+ */
+@media screen and (min-width: 768px) {
+    .row.row__no-margin {
+        $padding: 15px;
+
+        > div {
+            padding: $padding / 3;
+
+            &:first-child {
+                padding-left: $padding;
+                padding-right: $padding / 3;
+            }
+
+            &:last-child {
+                padding-right: $padding;
+                padding-left: $padding / 3;
+            }
+        }
+    }
+}
+
+/*
+ * Table Dashboard
+ * Customize table clay
+ */
+.table-dashboard {
+
+}
+
+// * {
+//     box-sizing: border-box;
+// }
+
+// body {
+//     margin: 0;
+// }
+
+// .header {
+//     background: $color-dark;
+//     padding: 1.5em;
+
+//     h1 {
+//       color: $color-clean;
+//       font-size: 1.4em;
+//     }
+// }
+
+// .flex {
+//   display: flex;
+// }
+
+// .box {
+//     background: $color-light;
+//     padding: 1.5em;
+//     display: flex;
+
+//     h2 {
+//         color: $color-dark;
+//         display: inline-block;
+//         font-size: 4.5em;
+
+//         span {
+//             font-weight: 200;
+//         }
+//     }
+
+//     h3 {
+//         font-size: 1.50rem;
+//         font-weight: 600;
+//     }
+
+//     .sessions-container {
+//         margin-right: 4rem;
+//     }
+// }
+
+// .analytics-row {
+//     display: flex;
+// }

@@ -14,6 +14,8 @@ import Constants from 'shared/util/constants';
 moment.locale(Constants.locale);
 
 const Home = bundle(() => import('./home/pages/Home'));
+const FormsPage = bundle(() => import('./analytics/pages/FormsPage'));
+const WorkflowPage = bundle(() => import('./analytics/pages/WorkflowPage'));
 const UIKit = bundle(() => import('./ui-kit/pages/index'));
 
 export default class App extends Component {
@@ -35,6 +37,13 @@ export default class App extends Component {
 				<OverlayRenderer />
 
 				<ModalRenderer />
+
+				<Router component={FormsPage} path="/web/analytics/forms" />
+
+				<Router
+					component={WorkflowPage}
+					path="/web/analytics/workflow"
+				/>
 
 				<Router component={Home} path="/web/analytics" />
 

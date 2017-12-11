@@ -35,6 +35,16 @@ class Sidebar extends Component {
 							icon="dxp-home"
 							label="Home"
 						/>
+						<SidebarItem
+							href="/web/analytics/forms"
+							icon="dxp-home"
+							label="Form Analytics"
+						/>
+						<SidebarItem
+							href="/web/analytics/workflow"
+							icon="dxp-home"
+							label="Workflow Analytics"
+						/>
 					</ul>
 				</div>
 
